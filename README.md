@@ -1,11 +1,11 @@
-About r-concaveman
-==================
+About r-concaveman-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-concaveman-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.github.com/joelgombin/concaveman
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-concaveman-feedstock/blob/main/LICENSE.txt)
 
 Summary: The concaveman function ports the 'concaveman' (<https://github.com/mapbox/concaveman>) library from 'mapbox'. It computes the concave polygon(s) for one or several set of points.
 
