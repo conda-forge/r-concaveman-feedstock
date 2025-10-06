@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/concaveman_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/concaveman/concaveman_{{ version }}.tar.gz
-  sha256: 9fd1d6aeee3d9bfff7f8ab3ba9b020c2201bb00ca9948eef386b4560fce86e2c
+  sha256: 48653df177d5f1573dcfdf49438fb7d418e7668f1c66713b4fed153fa51ff2b2
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
